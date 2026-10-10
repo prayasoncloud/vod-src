@@ -1,12 +1,11 @@
 {
-  "name": "node-user-service",
-  "version": "1.0.0",
-  "description": "Simple Node.js user microservice",
-  "main": "src/server.js",
+  "name": "ott-backend",
+  "private": true,
+  "workspaces": [
+    "services/*"
+  ],
   "scripts": {
-    "start": "node src/server.js"
-  },
-  "dependencies": {
-    "express": "^5.1.0"
+    "build": "npm run build --workspaces",
+    "test": "npm test --workspaces"
   }
 }
