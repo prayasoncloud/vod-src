@@ -1,4 +1,4 @@
-<escape>{
+{
   "compilerOptions": {
     "target": "ES2022",
     "module": "CommonJS",
@@ -11,4 +11,4 @@
     "forceConsistentCasingInFileNames": true
   },
   "include": ["src/**/*.ts"]
-}</escape>
+}
